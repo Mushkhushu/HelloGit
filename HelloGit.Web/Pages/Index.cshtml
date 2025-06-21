@@ -4,7 +4,48 @@
     ViewData["Title"] = "Accueil";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container mt-5">
+    <h1 class="display-4 text-center">HelloGit</h1>
+
+    <p class="lead mt-4">
+        Exercice pour HelloWork d'une application ASP.NET Core qui appelle l'API GitHub pour récupérer des données sur des repositories open-source et leurs issues, les ajoute dans une base de données SQLite, et les affiche via une interface web.
+    </p>
+    
+    <h2 class="mt-5">Objectif</h2>
+    <p>
+        Expérimenter l’utilisation d’Entity Framework Core, l’appel à des APIs externes, et la construction d’une interface Razor Pages pour manipuler des données réelles.
+    </p>
+
+    <h2 class="mt-5">Fonctionnement</h2>
+    <ol class="text-start">
+        <li>Récupération de données via l’API GitHub avec mon token.</li>
+        <li>Stockage des repositories et issues dans une base SQLite.</li>
+        <li>Générer des fichiers .csv pour ne pas avoir besoin d'un GitHub token poure remplir la base.</li>
+        <li>Permettre à un utilisateur de peupler une base de données avec ces fichiers .csv.</li>
+        <li>Affichage des repositories dans une interface Razor Pages.</li>
+    </ol>
+
+    <h2 class="mt-5">Étapes pour exécuter le projet</h2>
+    <ol class="text-start">
+        <li>Cloner la solution contenant deux projets : une API (console) et un front (web).</li>
+        <li>Exécuter <code>dotnet run --project HelloGit.Api</code> pour peupler la base via les .csv.</li>
+        <li>Exécuter <code>dotnet run --project HelloGit.Web</code> pour lancer l'application web.</li>
+        <li>Aller dans l’onglet <strong>Repositories</strong> pour voir les données.</li>
+    </ol>
+
+    <h2 class="mt-5">Difficulté rencontrées:</h2>
+    <ol class="text-start">
+        <li>Je pensais ne pas avoir besoin d'utiliser de token pour récupérer les données mais au regard du grand nombre de données attendues
+            et de la limitation à 60 requests de GitHub j'ai fait le choix de permettre de seeder la database avec des fichiers .csv sans appel réseau.</li>
+        <li>Le service pour questionner l'api et ses méthodes sont visibles dans <code>\HelloGit.Api\Services\GitHubApiClient.cs</code></li>
+    </ol>
+
+        <h2 class="mt-5">Librairies utilisées:</h2>
+    <ol class="text-start">
+        <li>Entity Framework Core : ORM utilisé pour interagir avec la base SQLite</li>
+        <li>CsvHelper : pour lire et écrire les fichiers .csv</li>
+        <li>System.Net.Http : pour effectuer les appels REST à l'API GitHub</li>
+        <li>Razor Pages : moteur de rendu côté serveur utilisé pour créer l'interface web</li>
+        <li>SQLite : base de données légère et embarquée pour persister les données localement</li>
+    </ol>
 </div>
