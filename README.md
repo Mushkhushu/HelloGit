@@ -6,6 +6,15 @@
 
 Exercice de développement ASP.NET Core consistant à interagir avec l'API GitHub pour récupérer des données sur des repositories open-source et leurs issues, les stocker dans une base de données SQLite, et les afficher via une interface web.
 
+## Spécifications & Pré-requis
+
+| Outil              | Version minimum recommandée     |
+|--------------------|----------------------------------|
+| .NET SDK           | 8.0                              |
+| SQLite             | Intégré via EF Core              |
+| IDE recommandé     | Visual Studio 2022+ / VS Code    |
+
+
 ## Objectifs
 
 - Expérimenter l’utilisation d’Entity Framework Core.
