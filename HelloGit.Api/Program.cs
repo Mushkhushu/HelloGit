@@ -18,7 +18,7 @@ namespace HelloGit.Api
                 .AddJsonFile("appsettings.Development.json", optional: false)
                 .Build();
 
-            string gitHubToken = configuration["GitHubToken"];
+            string? gitHubToken = configuration["GitHubToken"];
             if (string.IsNullOrWhiteSpace(gitHubToken))
             {
                 Console.WriteLine("GitHub token is missing in configuration. Please set it in appsettings.Development.json.");
@@ -35,7 +35,6 @@ namespace HelloGit.Api
             var seeder = new DatabaseSeeder(gitHubClient, dbContext);
             // Change line with await seeder.SeedAsync() to get the data from the API with a GitHub token
             await seeder.SeedFromCsvAsync();
-
 
             Console.WriteLine("Seed terminé.");
         }
