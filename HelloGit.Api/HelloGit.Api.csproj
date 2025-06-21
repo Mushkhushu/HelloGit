@@ -17,5 +17,14 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.6" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.6" />
   </ItemGroup>
+  
+  <ItemGroup>
+  <None Update="appsettings.Development.json">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
+  <None Update="appsettings.json">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
+</ItemGroup>
 
 </Project>
