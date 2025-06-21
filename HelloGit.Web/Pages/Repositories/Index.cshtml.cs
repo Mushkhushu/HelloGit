@@ -2,8 +2,6 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using HelloGit.Api.Models;
 using HelloGit.Api.Data; 
 using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
 namespace HelloGit.Web.Pages.Repositories
 {
