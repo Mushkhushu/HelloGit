@@ -12,10 +12,17 @@ namespace HelloGit.Api
         {
             var configuration = new ConfigurationBuilder()
                 .AddJsonFile("appsettings.json", optional: true)
+                // Github token is needed to access the GitHub API
+                // in appsettings.Development.json, you should have a line like this:
+                // Must be like : "GitHubToken": "your-token-here"
                 .AddJsonFile("appsettings.Development.json", optional: false)
                 .Build();
 
             string gitHubToken = configuration["GitHubToken"];
+            if (string.IsNullOrWhiteSpace(gitHubToken))
+            {
+                Console.WriteLine("GitHub token is missing in configuration. Please set it in appsettings.Development.json.");
+            }
 
             var gitHubClient = new GitHubApiClient(gitHubToken);
 
@@ -26,7 +33,8 @@ namespace HelloGit.Api
             await dbContext.Database.EnsureCreatedAsync();
 
             var seeder = new DatabaseSeeder(gitHubClient, dbContext);
-            await seeder.SeedAsync();
+            // Change line with await seeder.SeedAsync() to get the data from the API with a GitHub token
+            await seeder.SeedFromCsvAsync();
 
 
             Console.WriteLine("Seed terminé.");
