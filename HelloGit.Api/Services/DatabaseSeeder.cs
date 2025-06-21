@@ -9,12 +9,27 @@ namespace HelloGit.Api.Services
         private readonly GitHubApiClient _gitHubApiClient;
         private readonly AppDbContext _dbContext;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="DatabaseSeeder"/> class.
+        /// </summary>
+        /// <param name="gitHubApiClient">An instance of <see cref="GitHubApiClient"/> used to fetch data from the GitHub API.</param>
+        /// <param name="dbContext">The database context <see cref="AppDbContext"/> used to interact with the SQLite database.</param>
         public DatabaseSeeder(GitHubApiClient gitHubApiClient, AppDbContext dbContext)
         {
             _gitHubApiClient = gitHubApiClient;
             _dbContext = dbContext;
         }
 
+        /// <summary>
+        /// Seeds the database by fetching repositories and their recent issues from GitHub,
+        /// then inserts or updates the repository and issue data into the local SQLite database.
+        /// </summary>
+        /// <remarks>
+        /// For each repository fetched by the GitHub API:
+        /// - It updates existing repository records or adds new ones.
+        /// - Retrieves the contributors count.
+        /// - Fetches the last 5 open issues and replaces existing issues for that repository in the database.
+        /// Finally, changes are saved to the database asynchronously.
         public async Task SeedAsync()
         {
             var reposFromApi = await _gitHubApiClient.GetRepositoriesAsync("json", 200);
@@ -56,7 +71,7 @@ namespace HelloGit.Api.Services
                 var existingIssues = _dbContext.Issues.Where(i => i.RepositoryId == repositoryEntity.Id);
                 _dbContext.Issues.RemoveRange(existingIssues);
 
-                 foreach (var apiIssue in lastFiveIssues)
+                foreach (var apiIssue in lastFiveIssues)
                 {
                     var issue = new Issue
                     {
