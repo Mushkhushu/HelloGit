@@ -1,0 +1,201 @@
+Id,FullName,Description,HtmlUrl,Stars,ContributorsCount,OpenIssuesCount
+1,typicode/json-server,"Get a full fake REST API with zero coding in less than 30 seconds (seriously)",https://github.com/typicode/json-server,74487,90,716
+2,nlohmann/json,"JSON for Modern C++",https://github.com/nlohmann/json,46135,335,96
+3,AykutSarac/jsoncrack.com,"✨ Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML, CSV and more, into interactive graphs.",https://github.com/AykutSarac/jsoncrack.com,37779,37,41
+4,SwiftyJSON/SwiftyJSON,"The better way to deal with JSON data in Swift.",https://github.com/SwiftyJSON/SwiftyJSON,22869,160,135
+5,auth0/node-jsonwebtoken,"JsonWebToken implementation for node.js http://self-issued.info/docs/draft-ietf-oauth-json-web-token.html",https://github.com/auth0/node-jsonwebtoken,17989,105,173
+6,rjsf-team/react-jsonschema-form,"A React component for building Web forms from JSON Schema.",https://github.com/rjsf-team/react-jsonschema-form,14966,370,284
+7,json-iterator/go,"A high-performance 100% compatible drop-in replacement of ""encoding/json""",https://github.com/json-iterator/go,13787,54,266
+8,josdejong/jsoneditor,"A web-based tool to view, edit, format, and validate JSON",https://github.com/josdejong/jsoneditor,11944,100,231
+9,DaveGamble/cJSON,"Ultralightweight JSON parser in ANSI C",https://github.com/DaveGamble/cJSON,11630,98,264
+10,JamesNK/Newtonsoft.Json,"Json.NET is a popular high-performance JSON framework for .NET",https://github.com/JamesNK/Newtonsoft.Json,11074,133,814
+11,triggerdotdev/jsonhero-web,"JSON Hero is an open-source, beautiful JSON explorer for the web that lets you browse, search and navigate your JSON files at speed. 🚀. Built with 💜 by the Trigger.dev team.",https://github.com/triggerdotdev/jsonhero-web,10109,30,70
+12,json-path/JsonPath,"Java JsonPath implementation",https://github.com/json-path/JsonPath,9142,113,420
+13,douglascrockford/JSON-js,"JSON in JavaScript",https://github.com/douglascrockford/JSON-js,8723,3,1
+14,open-source-parsers/jsoncpp,"A C++ library for interacting with JSON.",https://github.com/open-source-parsers/jsoncpp,8565,226,142
+15,miloyip/json-tutorial,"从零开始的 JSON 库教程",https://github.com/miloyip/json-tutorial,7884,10,104
+16,json-api/json-api,"A specification for building JSON APIs",https://github.com/json-api/json-api,7585,330,142
+17,google/jsonnet,"Jsonnet - The data templating language",https://github.com/google/jsonnet,7256,154,222
+18,bblanchon/ArduinoJson,"📟 JSON library for Arduino and embedded C++. Simple and efficient.",https://github.com/bblanchon/ArduinoJson,6955,29,16
+19,json5/json5,"JSON5 — JSON for Humans",https://github.com/json5/json5,6898,29,36
+20,jsonmodel/jsonmodel,"Magical Data Modeling Framework for JSON - allows rapid creation of smart data models. You can use it in your iOS, macOS, watchOS and tvOS apps.",https://github.com/jsonmodel/jsonmodel,6845,66,34
+21,joelittlejohn/jsonschema2pojo,"Generate Java types from JSON or JSON Schema and annotate those types for data-binding with Jackson, Gson, etc",https://github.com/joelittlejohn/jsonschema2pojo,6298,129,250
+22,johnezang/JSONKit,"Objective-C JSON",https://github.com/johnezang/JSONKit,6212,6,105
+23,jdorn/json-editor,"JSON Schema Based Editor",https://github.com/jdorn/json-editor,5816,54,458
+24,buger/jsonparser,"One of the fastest alternative JSON parser for Go that does not require schema",https://github.com/buger/jsonparser,5536,52,69
+25,serde-rs/json,"Strongly typed JSON library for Rust",https://github.com/serde-rs/json,5217,136,198
+26,typicode/jsonplaceholder,"A simple online fake REST API server",https://github.com/typicode/jsonplaceholder,5146,12,95
+27,benjamine/jsondiffpatch,"Diff & patch JavaScript objects",https://github.com/benjamine/jsondiffpatch,5070,48,42
+28,Netflix/fast_jsonapi,"No Longer Maintained - A lightning fast JSON:API serializer for Ruby Objects.",https://github.com/Netflix/fast_jsonapi,5050,73,104
+29,Ahmed-Ali/JSONExport,"JSONExport is a desktop application for Mac OS X which enables you to export JSON objects as model classes with their associated constructors, utility methods, setters and getters in your favorite language.",https://github.com/Ahmed-Ali/JSONExport,4825,43,54
+30,python-jsonschema/jsonschema,"An implementation of the JSON Schema specification for Python",https://github.com/python-jsonschema/jsonschema,4779,115,43
+31,1rgs/jsonformer,"A Bulletproof Way to Generate Structured JSON from Language Models",https://github.com/1rgs/jsonformer,4750,5,49
+32,json-editor/json-editor,"JSON Schema Based Editor",https://github.com/json-editor/json-editor,4710,174,280
+33,stleary/JSON-java,"A reference implementation of a JSON package in Java.",https://github.com/stleary/JSON-java,4639,117,24
+34,mholt/json-to-go,"Translates JSON into a Go type in your browser instantly (original)",https://github.com/mholt/json-to-go,4586,23,19
+35,json-schema-org/json-schema-spec,"The JSON Schema specification",https://github.com/json-schema-org/json-schema-spec,4343,70,85
+36,alibaba/HandyJSON,"A handy swift json-object serialization/deserialization library",https://github.com/alibaba/HandyJSON,4266,26,233
+37,dwyl/learn-json-web-tokens,":closed_lock_with_key: Learn how to use JSON Web Token (JWT) to secure your next Web App! (Tutorial/Example with Tests!!)",https://github.com/dwyl/learn-json-web-tokens,4187,30,22
+38,callumlocke/json-formatter,"Makes JSON easy to read.",https://github.com/callumlocke/json-formatter,3962,12,154
+39,RedisJSON/RedisJSON,"RedisJSON - a JSON data type for Redis",https://github.com/RedisJSON/RedisJSON,3911,86,180
+40,jsonrainbow/json-schema,"A PHP implementation of JSON Schema validation",https://github.com/jsonrainbow/json-schema,3589,134,8
+41,fastify/fast-json-stringify,"2x faster than JSON.stringify()",https://github.com/fastify/fast-json-stringify,3581,100,36
+42,mac-s-g/react-json-view,"JSON viewer for react",https://github.com/mac-s-g/react-json-view,3580,33,182
+43,ant0ine/go-json-rest,"A quick and easy way to setup a RESTful JSON API",https://github.com/ant0ine/go-json-rest,3517,24,46
+44,jdorfman/awesome-json-datasets,"A curated list of awesome JSON datasets that don't require authentication.",https://github.com/jdorfman/awesome-json-datasets,3440,79,5
+45,goccy/go-json,"Fast JSON encoder/decoder compatible with encoding/json for Go",https://github.com/goccy/go-json,3421,27,116
+46,tulios/json-viewer,"It is a Chrome extension for printing JSON and JSONP.",https://github.com/tulios/json-viewer,3417,31,183
+47,json-schema-faker/json-schema-faker,"JSON-Schema + fake data generators",https://github.com/json-schema-faker/json-schema-faker,3376,75,82
+48,christabor/flask_jsondash,":snake: :bar_chart: :chart_with_upwards_trend: Build complex dashboards without any front-end code. Use your own endpoints. JSON config only. Ready to go.",https://github.com/christabor/flask_jsondash,3294,7,52
+49,YousefED/typescript-json-schema,"Generate json-schema from your Typescript sources",https://github.com/YousefED/typescript-json-schema,3231,123,181
+50,wuseal/JsonToKotlinClass,"🚀 Plugin for Android Studio And IntelliJ Idea to generate Kotlin data class code from JSON text ( Json to Kotlin )",https://github.com/wuseal/JsonToKotlinClass,3142,40,54
+51,json-c/json-c,"https://github.com/json-c/json-c is the official code repository for json-c.  See the wiki for release tarballs for download.  API docs at http://json-c.github.io/json-c/",https://github.com/json-c/json-c,3115,163,20
+52,bcherny/json-schema-to-typescript,"Compile JSON Schema to TypeScript type declarations",https://github.com/bcherny/json-schema-to-typescript,3088,68,169
+53,obsidianmd/jsoncanvas,"An open file format for infinite canvas data.",https://github.com/obsidianmd/jsoncanvas,2885,18,27
+54,loggerhead/json4u,,https://github.com/loggerhead/json4u,2847,5,15
+55,CacheControl/json-rules-engine,"A rules engine expressed in JSON",https://github.com/CacheControl/json-rules-engine,2828,36,65
+56,jsonform/jsonform,"Build forms from JSON Schema. Easily template-able. Compatible with Bootstrap 3 out of the box.",https://github.com/jsonform/jsonform,2803,52,17
+57,zemirco/json2csv,"Convert json to csv with column titles",https://github.com/zemirco/json2csv,2727,71,17
+58,dropbox/json11,"A tiny JSON library for C++11.",https://github.com/dropbox/json11,2573,33,20
+59,vasanthv/jsonbox,"HTTP-based JSON storage.",https://github.com/vasanthv/jsonbox,2492,21,13
+60,json-schema-form/angular-schema-form,"Generate forms from a JSON schema, with AngularJS! ",https://github.com/json-schema-form/angular-schema-form,2464,91,129
+61,eclipsesource/jsonforms,"Customizable JSON Schema-based forms with React, Angular and Vue support out of the box.",https://github.com/eclipsesource/jsonforms,2456,98,138
+62,neuecc/Utf8Json,"Definitely Fastest and Zero Allocation JSON Serializer for C#(NET, .NET Core, Unity, Xamarin).",https://github.com/neuecc/Utf8Json,2381,4,173
+63,cerebris/jsonapi-resources,"A resource-focused Rails library for developing JSON:API compliant servers.",https://github.com/cerebris/jsonapi-resources,2321,180,254
+64,jsonata-js/jsonata,"JSONata query and transformation language - http://jsonata.org",https://github.com/jsonata-js/jsonata,2314,53,153
+65,Ovi/DummyJSON,"DummyJSON.com provides different types of REST Endpoints filled with JSON data which you can use in developing the frontend with your favorite framework and library without worrying about writing a backend.",https://github.com/Ovi/DummyJSON,2309,15,8
+66,mangiucugna/json_repair,"A python module to repair invalid JSON from LLMs",https://github.com/mangiucugna/json_repair,2177,14,0
+67,lljj-x/vue-json-schema-form,"基于Vue/Vue3，Json Schema 和 ElementUi/antd/iview3/naiveUi 等生成 HTML Form 表单，用于活动编辑器、h5编辑器、cms等数据配置；支持可视化生成表单Schema 。 Generate a form using Vue/Vue3, Json Schema and ElementUi/antdv/iview3/naiveUi",https://github.com/lljj-x/vue-json-schema-form,2159,10,31
+68,johan/world.geo.json,"Annotated geo-json geometry files for the world",https://github.com/johan/world.geo.json,2136,10,12
+69,bradjasper/ImportJSON,"Import JSON into Google Sheets, this library adds various ImportJSON functions to your spreadsheet",https://github.com/bradjasper/ImportJSON,2132,7,175
+70,imaurer/awesome-llm-json,"Resource list for generating JSON using LLMs via function calling, tools, CFG. Libraries, Models, Notebooks, etc.",https://github.com/imaurer/awesome-llm-json,2111,20,2
+71,modesty/pdf2json,"converts binary PDF to JSON and text, for server-side PDF processing and command-line use. Zero dependency.",https://github.com/modesty/pdf2json,2103,59,106
+72,dzhibas/SublimePrettyJson,"Prettify/Minify/Query/Goto/Validate/Lint JSON plugin for Sublime Text 3 & 4",https://github.com/dzhibas/SublimePrettyJson,2035,24,29
+73,bluzi/jsonstore,":rocket: jsonstore offers a free and secured JSON-based cloud datastore for small projects | Inactive",https://github.com/bluzi/jsonstore,2028,10,29
+74,dominictarr/JSON.sh,"a pipeable JSON parser written in Bash",https://github.com/dominictarr/JSON.sh,2014,17,19
+75,rxi/json.lua,"A lightweight JSON library for Lua",https://github.com/rxi/json.lua,1997,2,28
+76,VBA-tools/VBA-JSON,"JSON conversion and parsing for VBA",https://github.com/VBA-tools/VBA-JSON,1971,5,129
+77,zaach/jsonlint,"A JSON parser and validator with a CLI.",https://github.com/zaach/jsonlint,1970,15,80
+78,marmelab/json-graphql-server,"Get a full fake GraphQL API with zero coding in less than 30 seconds.",https://github.com/marmelab/json-graphql-server,1945,27,12
+79,dominictarr/JSONStream,rawStream.pipe(JSONStream.parse()).pipe(streamOfObjects),https://github.com/dominictarr/JSONStream,1930,34,54
+80,webmodules/jsonp,"A simple JSONP implementation",https://github.com/webmodules/jsonp,1906,14,30
+81,Starcounter-Jack/JSON-Patch,"Lean and mean Javascript implementation of the JSON-Patch standard (RFC 6902). Update JSON documents using delta patches.",https://github.com/Starcounter-Jack/JSON-Patch,1890,53,78
+82,wellsjo/JSON-Splora,"GUI app for editing, visualizing, and manipulating JSON data",https://github.com/wellsjo/JSON-Splora,1865,11,20
+83,tdegrunt/jsonschema,"JSON Schema validation",https://github.com/tdegrunt/jsonschema,1855,72,66
+84,Keats/jsonwebtoken,"JWT lib in rust",https://github.com/Keats/jsonwebtoken,1852,79,68
+85,neil3d/excel2json,"把Excel表转换成json对象，并保存到一个文本文件中。",https://github.com/neil3d/excel2json,1817,8,18
+86,madzak/python-json-logger,"Json Formatter for the standard python logger",https://github.com/madzak/python-json-logger,1764,63,30
+87,digitalbazaar/jsonld.js,"A JSON-LD Processor and API implementation in JavaScript",https://github.com/digitalbazaar/jsonld.js,1724,41,154
+88,marioizquierdo/jquery.serializeJSON,"Serialize an HTML Form to a JavaScript Object, supporting nested attributes and arrays.",https://github.com/marioizquierdo/jquery.serializeJSON,1716,20,9
+89,google/go-jsonnet,,https://github.com/google/go-jsonnet,1704,101,167
+90,java-json-tools/json-schema-validator,"A JSON Schema validation implementation in pure Java, which aims for correctness and performance, in that order",https://github.com/java-json-tools/json-schema-validator,1637,26,163
+91,KilledByAPixel/JSONCrush,"Compress JSON into URL friendly strings",https://github.com/KilledByAPixel/JSONCrush,1624,4,4
+92,gildas-lormeau/JSONVue,"Fork of JSONView for Chromium-based browsers",https://github.com/gildas-lormeau/JSONVue,1595,3,15
+93,lloyd/JSONSelect,"CSS-like selectors for JSON",https://github.com/lloyd/JSONSelect,1592,8,46
+94,voxpupuli/json-schema,"Ruby JSON Schema Validator",https://github.com/voxpupuli/json-schema,1591,93,106
+95,google/json_serializable.dart,"Generates utilities to aid in serializing to/from JSON.",https://github.com/google/json_serializable.dart,1589,44,140
+96,ThomasAribart/json-schema-to-ts,"Infer TS types from JSON schemas 📝",https://github.com/ThomasAribart/json-schema-to-ts,1589,12,23
+97,bhollis/jsonview,"A web extension that helps you view JSON documents in the browser. ",https://github.com/bhollis/jsonview,1583,28,0
+98,vega/ts-json-schema-generator,"Generate JSON schema from your Typescript sources",https://github.com/vega/ts-json-schema-generator,1582,100,115
+99,cweiske/jsonmapper,"Map nested JSON structures onto PHP classes",https://github.com/cweiske/jsonmapper,1565,46,5
+100,trentm/json,"A ""json"" command for massaging JSON on your Unix command line.",https://github.com/trentm/json,1559,15,51
+101,json-iterator/java,"jsoniter (json-iterator) is fast and flexible JSON parser available in Java and Go",https://github.com/json-iterator/java,1532,17,111
+102,json-schema-org/understanding-json-schema,"A website aiming to provide more accessible documentation for JSON schema.",https://github.com/json-schema-org/understanding-json-schema,1515,52,0
+103,Avocarrot/json2view,"Update native Android UI on the fly",https://github.com/Avocarrot/json2view,1509,8,8
+104,json4s/json4s,"JSON library",https://github.com/json4s/json4s,1488,130,172
+105,burningtree/awesome-json,"A curated list of awesome JSON libraries and resources.",https://github.com/burningtree/awesome-json,1460,72,19
+106,electron-userland/electron-json-storage,":package: Easily write and read user settings in Electron apps",https://github.com/electron-userland/electron-json-storage,1438,12,42
+107,lidatong/dataclasses-json,"Easily serialize Data Classes to and from JSON",https://github.com/lidatong/dataclasses-json,1430,70,154
+108,google/jsonapi,"jsonapi.org style payload serializer and deserializer",https://github.com/google/jsonapi,1428,33,67
+109,jsonapi-serializer/jsonapi-serializer,"A fast JSON:API serializer for Ruby (fork of Netflix/fast_jsonapi)",https://github.com/jsonapi-serializer/jsonapi-serializer,1419,116,67
+110,eulerto/wal2json,"JSON output plugin for changeset extraction",https://github.com/eulerto/wal2json,1395,19,23
+111,dchester/jsonpath,"Query and manipulate JavaScript objects with JSONPath expressions.  Robust JSONPath engine for Node.js.",https://github.com/dchester/jsonpath,1388,11,101
+112,SwiftyJSON/Alamofire-SwiftyJSON,"Alamofire extension for serialize NSData to SwiftyJSON",https://github.com/SwiftyJSON/Alamofire-SwiftyJSON,1373,14,13
+113,leezng/vue-json-pretty,"A JSON tree view component that is easy to use and also supports data selection.",https://github.com/leezng/vue-json-pretty,1372,20,27
+114,prat0318/json_resume,"Generates pretty HTML, LaTeX, markdown, with biodata feeded as input in JSON",https://github.com/prat0318/json_resume,1359,11,9
+115,jwadhams/json-logic-js,"Build complex rules, serialize them as JSON, and execute them in JavaScript",https://github.com/jwadhams/json-logic-js,1347,10,81
+116,javiercbk/json_to_dart,"Library that generates dart classes from json strings",https://github.com/javiercbk/json_to_dart,1334,3,40
+117,Seldaek/jsonlint,"JSON Lint for PHP",https://github.com/Seldaek/jsonlint,1323,40,3
+118,Instagram/ig-json-parser,"Fast JSON parser for java projects",https://github.com/Instagram/ig-json-parser,1317,27,9
+119,json-parser/json-parser,"Very low footprint DOM-style JSON parser written in portable ANSI C",https://github.com/json-parser/json-parser,1304,38,40
+120,jsonpickle/jsonpickle,"Python library for serializing any arbitrary object graph into JSON. It can take almost any Python object and turn the object into JSON. Additionally, it can reconstitute the object back into Python.",https://github.com/jsonpickle/jsonpickle,1291,81,63
+121,simd-lite/simd-json,"Rust port of simdjson",https://github.com/simd-lite/simd-json,1267,66,16
+122,kragniz/json-sempai,"Use JSON files as if they are python modules",https://github.com/kragniz/json-sempai,1248,6,12
+123,wild-card-ai/agents-json,,https://github.com/wild-card-ai/agents-json,1240,3,9
+124,django-json-api/django-rest-framework-json-api,"JSON:API support for Django REST framework",https://github.com/django-json-api/django-rest-framework-json-api,1224,117,23
+125,halaxa/json-machine,"Efficient, easy-to-use, and fast PHP JSON stream parser",https://github.com/halaxa/json-machine,1223,14,4
+126,hiroi-sora/PaddleOCR-json,"OCR离线图片文字识别命令行windows程序，以JSON字符串形式输出结果，方便别的程序调用。提供各种语言API。由 PaddleOCR C++ 编译。",https://github.com/hiroi-sora/PaddleOCR-json,1213,12,43
+127,jprichardson/node-jsonfile,"Easily read/write JSON files.",https://github.com/jprichardson/node-jsonfile,1206,25,5
+128,pmiaowu/BurpFastJsonScan,"一款基于BurpSuite的被动式FastJson检测插件",https://github.com/pmiaowu/BurpFastJsonScan,1198,1,5
+129,kakaopensource/KakaJSON,"Fast conversion between JSON and model in Swift.",https://github.com/kakaopensource/KakaJSON,1195,4,22
+130,andreyvit/json-diff,"Structural diff for JSON files",https://github.com/andreyvit/json-diff,1183,31,32
+131,rpkilby/jsonfield,"A reusable Django model field for storing ad-hoc JSON data",https://github.com/rpkilby/jsonfield,1160,51,13
+132,evanphx/json-patch,"A Go library to apply RFC6902 patches and create and apply RFC7386 patches",https://github.com/evanphx/json-patch,1145,59,2
+133,carcaschoi/tinfoil-json,,https://github.com/carcaschoi/tinfoil-json,1137,11,1
+134,StefanTerdell/zod-to-json-schema,"Converts Zod schemas to Json schemas",https://github.com/StefanTerdell/zod-to-json-schema,1134,31,12
+135,samayo/country-json,"A simple data of the world by country each in JSON format.",https://github.com/samayo/country-json,1124,67,2
+136,madeintandem/jsonb_accessor,"Adds typed jsonb backed fields to your ActiveRecord models.",https://github.com/madeintandem/jsonb_accessor,1124,32,7
+137,json-everything/json-everything,"System.Text.Json-based support for all of your JSON needs.",https://github.com/json-everything/json-everything,1112,58,35
+138,synesthesiam/voice2json,"Command-line tools for speech and intent recognition on Linux",https://github.com/synesthesiam/voice2json,1107,5,39
+139,supabase/pg_jsonschema,"PostgreSQL extension providing JSON Schema validation",https://github.com/supabase/pg_jsonschema,1104,16,2
+140,briandilley/jsonrpc4j,"JSON-RPC for Java",https://github.com/briandilley/jsonrpc4j,1083,73,26
+141,santhosh-tekuri/jsonschema,"JSONSchema (draft 2020-12, draft 2019-09, draft-7, draft-6, draft-4) Validation using Go",https://github.com/santhosh-tekuri/jsonschema,1077,3,22
+142,uhop/stream-json,"The micro-library of Node.js stream components for creating custom JSON processing pipelines with a minimal memory footprint. It can parse JSON files far exceeding available memory streaming individual primitives using a SAX-inspired API.",https://github.com/uhop/stream-json,1071,12,8
+143,Open-Federation/json-schema-editor-visual,"A json-schema editor of high efficient and easy-to-use, base on React.",https://github.com/Open-Federation/json-schema-editor-visual,1065,9,53
+144,JSONPath-Plus/JSONPath,"A fork of JSONPath from http://goessner.net/articles/JsonPath/ ",https://github.com/JSONPath-Plus/JSONPath,1057,45,51
+145,josdejong/svelte-jsoneditor,"A web-based tool to view, edit, format, repair, query, transform, and validate JSON",https://github.com/josdejong/svelte-jsoneditor,1057,21,25
+146,staudenmeir/eloquent-json-relations,"Laravel Eloquent relationships with JSON keys",https://github.com/staudenmeir/eloquent-json-relations,1052,10,6
+147,skyscreamer/JSONassert,"Write JSON unit tests in less code. Great for testing REST interfaces.",https://github.com/skyscreamer/JSONassert,1037,31,90
+148,ngs-doo/dsl-json,"High performance JVM JSON library",https://github.com/ngs-doo/dsl-json,1033,25,39
+149,factbook/factbook.json,"World Factbook Country Profiles in JSON  - Free Open Public Domain Data - No API Key Required ;-)",https://github.com/factbook/factbook.json,1031,3,1
+150,ultralytics/JSON2YOLO,"Convert JSON annotations into YOLO format.",https://github.com/ultralytics/JSON2YOLO,1030,6,63
+151,APIDevTools/json-schema-ref-parser,"Parse, Resolve, and Dereference JSON Schema $ref pointers in Node and browsers",https://github.com/APIDevTools/json-schema-ref-parser,1030,56,18
+152,lemono0/FastJsonParty,"FastJson全版本Docker漏洞环境(涵盖1.2.47/1.2.68/1.2.80等版本)，主要包括JNDI注入及高版本绕过、waf绕过、文件读写、原生反序列化、利用链探测绕过、不出网利用等。从黑盒的角度覆盖FastJson深入利用",https://github.com/lemono0/FastJsonParty,1030,2,3
+153,bestiejs/json3,"A JSON polyfill. No longer maintained.",https://github.com/bestiejs/json3,1019,12,17
+154,nst/JSONTestSuite,"A comprehensive test suite for RFC 8259 compliant JSON parsers",https://github.com/nst/JSONTestSuite,1006,44,49
+155,camsong/fetch-jsonp,"Make JSONP request like window.fetch",https://github.com/camsong/fetch-jsonp,1003,21,4
+156,fabienrenaud/java-json-benchmark,"Performance testing of serialization and deserialization of Java JSON libraries",https://github.com/fabienrenaud/java-json-benchmark,1000,21,11
+157,alexkuz/react-json-tree,"React JSON Viewer Component, Extracted from redux-devtools",https://github.com/alexkuz/react-json-tree,995,30,34
+158,taion/graphql-type-json,"JSON scalar type for GraphQL.js",https://github.com/taion/graphql-type-json,985,11,36
+159,stereobooster/package.json,"🗃️ package.json fields explained",https://github.com/stereobooster/package.json,983,8,8
+160,marianoguerra/json.human.js,"Convert JSON to human readable HTML",https://github.com/marianoguerra/json.human.js,978,9,15
+161,spray/spray-json,"A lightweight, clean and simple JSON implementation in Scala",https://github.com/spray/spray-json,972,48,101
+162,mafintosh/is-my-json-valid,"A JSONSchema validator that uses code generation to be extremely fast",https://github.com/mafintosh/is-my-json-valid,968,28,55
+163,manton/JSONFeed,"The JSONFeed.org website",https://github.com/manton/JSONFeed,957,29,77
+164,vvkeep/JSONConverter,"🔥 🔥 🔥 Powerful and beautiful JSON-to-model MacOS app, supports multiple development languages and popular third-party libraries, flexible custom configuration options to meet a variety of individual needs",https://github.com/vvkeep/JSONConverter,954,13,4
+165,insanoid/SwiftyJSONAccelerator,"macOS app to generate Swift 5 code for models from JSON (with Codeable)",https://github.com/insanoid/SwiftyJSONAccelerator,950,13,10
+166,adriantoine/enzyme-to-json,"Snapshot test your Enzyme wrappers",https://github.com/adriantoine/enzyme-to-json,942,40,22
+167,michaeleisel/ZippyJSON,"A much faster version of JSONDecoder",https://github.com/michaeleisel/ZippyJSON,941,10,2
+168,lukas-krecan/JsonUnit,"Compare JSON in your Unit Tests",https://github.com/lukas-krecan/JsonUnit,934,46,17
+169,networknt/json-schema-validator,"A fast Java JSON schema validator that supports draft V4, V6, V7, V2019-09 and V2020-12",https://github.com/networknt/json-schema-validator,934,177,22
+170,estiens/world_cup_json,"Rails backend for a scraper that outputs World Cup data as JSON",https://github.com/estiens/world_cup_json,926,58,19
+171,SaladLab/Json.Net.Unity3D,"Forked Newtonsoft.Json to support Unity3D",https://github.com/SaladLab/Json.Net.Unity3D,924,1,23
+172,collectiveidea/json_spec,"Easily handle JSON in RSpec and Cucumber",https://github.com/collectiveidea/json_spec,915,19,21
+173,everit-org/json-schema,"JSON Schema validator for java, based on the org.json API",https://github.com/everit-org/json-schema,888,58,82
+174,midudev/minimalist-portfolio-json,"A minimalist portafolio configurable via one JSON",https://github.com/midudev/minimalist-portfolio-json,887,21,10
+175,json-ld/json-ld.org,"JSON for Linked Data's documentation and playground site",https://github.com/json-ld/json-ld.org,881,66,90
+176,streamich/json-joy,"json-joy is a library that implements cutting-edge real-time and collaborative editing algorithms and utilities for JSON data models, with a focus on developing the JSON CRDT (Conflict-free Replicated Data Type) specification and implementation.",https://github.com/streamich/json-joy,878,5,220
+177,nahid/jsonq,"A PHP query builder for JSON",https://github.com/nahid/jsonq,876,12,18
+178,nemtsov/json-mask,"Tiny language and engine for selecting specific parts of a JS object, hiding the rest.",https://github.com/nemtsov/json-mask,868,13,4
+179,keithamus/sort-package-json,"Sort an Object or package.json based on the well-known package.json keys",https://github.com/keithamus/sort-package-json,861,77,34
+180,corylanou/tns-restful-json-api,"This is the code repository that goes along with the ""TheNewStack"" article for RESTful JSON API post",https://github.com/corylanou/tns-restful-json-api,853,3,0
+181,sidorares/json-bigint,"JSON.parse/stringify with bigints support",https://github.com/sidorares/json-bigint,848,16,55
+182,rfletcher/safari-json-formatter,"A Safari extension which makes valid JSON documents human-readable.",https://github.com/rfletcher/safari-json-formatter,846,3,22
+183,nodesocket/jsonlite,"A simple, self-contained, serverless, zero-configuration, json document store.",https://github.com/nodesocket/jsonlite,845,3,2
+184,dmfilipenko/timezones.json,"Full list of timezones",https://github.com/dmfilipenko/timezones.json,828,31,16
+185,xzitlou/jsontr.ee,"Effortlessly visualize JSON structures as dynamic tree diagrams",https://github.com/xzitlou/jsontr.ee,828,1,3
+186,Belphemur/node-json-db,"A simple ""database"" that use JSON file for Node.JS.",https://github.com/Belphemur/node-json-db,817,35,15
+187,jehiah/json2csv,"command line tool to convert json to csv",https://github.com/jehiah/json2csv,815,8,13
+188,openfootball/football.json,"Free open public domain football data in JSON incl. English Premier League, Bundesliga, Primera División, Serie A and more - No API key required ;-)",https://github.com/openfootball/football.json,815,10,0
+189,buglabs/node-xml2json,"Converts XML to JSON using node-expat",https://github.com/buglabs/node-xml2json,811,37,55
+190,paritytech/jsonrpc,"Rust JSON-RPC implementation",https://github.com/paritytech/jsonrpc,809,76,86
+191,gulyasm/jsonui,"jsonui is an interactive JSON explorer on your command line",https://github.com/gulyasm/jsonui,803,2,12
+192,flosell/iam-policy-json-to-terraform,"Small tool to convert an IAM Policy in JSON format into a Terraform aws_iam_policy_document",https://github.com/flosell/iam-policy-json-to-terraform,794,12,11
+193,josdejong/jsonrepair,"Repair invalid JSON documents",https://github.com/josdejong/jsonrepair,793,4,8
+194,NPP-JSONViewer/JSON-Viewer,"A JSON viewer plugin for Notepad++. Displays the selected JSON string in a tree view.",https://github.com/NPP-JSONViewer/JSON-Viewer,792,20,23
+195,cerbero90/json-parser,"🧩 Zero-dependencies lazy parser to read JSON of any dimension and from any source in a memory-efficient way.",https://github.com/cerbero90/json-parser,787,2,1
+196,cloudcreativity/laravel-json-api,"JSON API (jsonapi.org) package for Laravel applications.",https://github.com/cloudcreativity/laravel-json-api,786,46,26
+197,github/webauthn-json,"🔏 A small WebAuthn API wrapper that translates to/from pure JSON using base64url.",https://github.com/github/webauthn-json,784,13,12
+198,isair/JSONHelper,"✌ Convert anything into anything in one operation; JSON data into class instances, hex strings into UIColor/NSColor, y/n strings to booleans, arrays and dictionaries of these; anything you can make sense of!",https://github.com/isair/JSONHelper,783,20,8
+199,plokhotnyuk/jsoniter-scala,"Scala macros for compile-time generation of safe and ultra-fast JSON codecs + circe booster",https://github.com/plokhotnyuk/jsoniter-scala,779,29,93
+200,Bunny83/SimpleJSON,"A simple JSON parser in C#",https://github.com/Bunny83/SimpleJSON,778,5,13
