@@ -33,6 +33,7 @@ ScaffoldingReadMe.txt
 
 # NuGet Packages
 *.nupkg
+
 # NuGet Symbol Packages
 *.snupkg
 
@@ -52,3 +53,37 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+## User-specific files (Visual Studio)
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Visual Studio Code
+.vscode/
+
+## NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+
+## EF Core Migrations (optionnel)
+Migrations/
+
+## Database files (SQLite)
+*.db
+*.sqlite
+*.sqlite3
+
+# Ignore all appsettings files except the base one
+appsettings*.json
+!appsettings.json
+
+## Rider
+.idea/
+
+## Others
+*.vs/
+*.DS_Store
+*.env
