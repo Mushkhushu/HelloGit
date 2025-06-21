@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloGit.Api", "HelloGit.Api\HelloGit.Api.csproj", "{4D30D196-7FBF-4CE9-B475-8B9BCA06FEBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloGit.Web", "HelloGit.Web\HelloGit.Web.csproj", "{1A9914C1-1A16-490D-895E-52EC61B403DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +14,15 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D30D196-7FBF-4CE9-B475-8B9BCA06FEBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D30D196-7FBF-4CE9-B475-8B9BCA06FEBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D30D196-7FBF-4CE9-B475-8B9BCA06FEBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D30D196-7FBF-4CE9-B475-8B9BCA06FEBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A9914C1-1A16-490D-895E-52EC61B403DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A9914C1-1A16-490D-895E-52EC61B403DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A9914C1-1A16-490D-895E-52EC61B403DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A9914C1-1A16-490D-895E-52EC61B403DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
