@@ -75,6 +75,8 @@ Migrations/
 *.db
 *.sqlite
 *.sqlite3
+*.db-shm
+*.db-wal
 
 # Ignore all appsettings files except the base one
 appsettings*.json
