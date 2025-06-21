@@ -1,0 +1,17 @@
+@page "{id:int}"
+@model HelloGit.Web.Pages.Repositories.DetailsModel
+
+<h2>@Model.Repository.FullName</h2>
+<p>@Model.Repository.Description</p>
+<p><a href="@Model.Repository.HtmlUrl" target="_blank">Voir sur GitHub</a></p>
+
+<h3>Issues récentes</h3>
+<ul>
+    @foreach (var issue in Model.Repository.LastFiveIssues.OrderByDescending(i => i.CreatedAt))
+    {
+        <li>
+            <a href="@issue.HtmlUrl" target="_blank">@issue.Title</a>
+            - @issue.CreatedAt.ToShortDateString()
+        </li>
+    }
+</ul>
