@@ -28,7 +28,7 @@ namespace HelloGit.Api.Services
                 string repoName = split[1];
 
                 var contributorsCount = await _gitHubApiClient.GetContributorsCountAsync(owner, repoName);
-                
+
                 var repositoryEntity = _dbContext.Repositories.SingleOrDefault(r => r.FullName == apiRepo.FullName);
                 if (repositoryEntity != null)
                 {
@@ -50,6 +50,23 @@ namespace HelloGit.Api.Services
                     };
 
                     _dbContext.Repositories.Add(repositoryEntity);
+                }
+                var lastFiveIssues = await _gitHubApiClient.GetLastOpenIssuesAsync(owner, repoName, 5);
+
+                var existingIssues = _dbContext.Issues.Where(i => i.RepositoryId == repositoryEntity.Id);
+                _dbContext.Issues.RemoveRange(existingIssues);
+
+                 foreach (var apiIssue in lastFiveIssues)
+                {
+                    var issue = new Issue
+                    {
+                        Repository = repositoryEntity,
+                        Title = apiIssue.Title,
+                        HtmlUrl = apiIssue.HtmlUrl,
+                        CreatedAt = apiIssue.CreatedAt,
+                        IssueNumber = apiIssue.IssueNumber
+                    };
+                    _dbContext.Issues.Add(issue);
                 }
             }
             await _dbContext.SaveChangesAsync();
