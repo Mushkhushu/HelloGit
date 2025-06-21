@@ -15,7 +15,7 @@ namespace HelloGit.Api
                 // Github token is needed to access the GitHub API
                 // in appsettings.Development.json, you should have a line like this:
                 // Must be like : "GitHubToken": "your-token-here"
-                .AddJsonFile("appsettings.Development.json", optional: false)
+                .AddJsonFile("appsettings.Development.json", optional: true)
                 .Build();
 
             string? gitHubToken = configuration["GitHubToken"];
