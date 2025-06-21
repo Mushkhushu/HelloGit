@@ -21,6 +21,14 @@ namespace HelloGit.Api.Services
 
             foreach (var apiRepo in reposFromApi)
             {
+                var split = apiRepo.FullName.Split('/');
+                if (split.Length != 2) continue;
+
+                string owner = split[0];
+                string repoName = split[1];
+
+                var contributorsCount = await _gitHubApiClient.GetContributorsCountAsync(owner, repoName);
+                
                 var repositoryEntity = _dbContext.Repositories.SingleOrDefault(r => r.FullName == apiRepo.FullName);
                 if (repositoryEntity != null)
                 {
@@ -28,6 +36,7 @@ namespace HelloGit.Api.Services
                     repositoryEntity.HtmlUrl = apiRepo.HtmlUrl;
                     repositoryEntity.Stars = apiRepo.StargazersCount;
                     repositoryEntity.OpenIssuesCount = apiRepo.OpenIssuesCount;
+                    repositoryEntity.ContributorsCount = contributorsCount;
                 }
                 else
                 {

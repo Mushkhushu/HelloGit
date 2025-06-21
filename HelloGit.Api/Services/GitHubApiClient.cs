@@ -1,6 +1,7 @@
 using System.Net.Http.Json;
 using System.Text.Json.Serialization;
 using System.Net.Http.Headers;
+using System.Text.RegularExpressions;
 
 namespace HelloGit.Api.Services
 {
@@ -42,6 +43,28 @@ namespace HelloGit.Api.Services
             }
 
             return repos.Take(maxResults).ToList();
+        }
+
+        public async Task<int> GetContributorsCountAsync(string owner, string repo)
+        {
+            string url = $"https://api.github.com/repos/{owner}/{repo}/contributors?per_page=1&anon=true";
+
+            var response = await _httpClient.GetAsync(url);
+
+            if (!response.IsSuccessStatusCode)
+                return 0;
+
+            if (response.Headers.TryGetValues("Link", out var linkHeaders))
+            {
+                var linkHeader = linkHeaders.FirstOrDefault() ?? "";
+                var match = Regex.Match(linkHeader, @"&page=(\d+)>; rel=""last""");
+
+                if (match.Success && int.TryParse(match.Groups[1].Value, out int lastPage))
+                    return lastPage;
+            }
+
+            var contributorsJson = await response.Content.ReadAsStringAsync();
+            return string.IsNullOrWhiteSpace(contributorsJson) ? 0 : 1;
         }
 
         public class SearchRepositoriesResponse
